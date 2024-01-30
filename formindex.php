@@ -9,6 +9,7 @@
     
 <main>
     <form action ="includes/formhandler.php" method = "post">
+        
     <!-- <form action ="<?php echo $_SERVER["PHP_SELF"];?>" method = "post"> -->
         <!-- submit to same page youre inside of. NOT RECOMMENDED, XSS and hacking vulnerable -->
     
@@ -28,6 +29,8 @@
         </select>
 
         <button type = "submit">Submit</button>
+        <button type = "submit" name ="submit">Submit</button>
+
     </form>
 
 </main>
